@@ -8,26 +8,27 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/fcde28876e.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-[url('.png')] bg-cover bg-center h-64 w-full">
     <header class="max-w-[1440px] mx-auto p-8 ">
-        <nav class="flex justify-between border-b-2 border-red-500">
-             <div>
-                <img src="./assets/logo.png" alt="">
+        <nav class="flex justify-between align-middle pb-8">
+             <div class="flex justify-center">
+                <img class="flex justify-start" src="./assets/logo.png" alt="">
+                <h1 class="flex text-3xl justify-center font-bold"> school</h1>
              </div>
              <div>
                 <ul class="lg:flex gap-5 hidden lg:justify-between">
-                    <div>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Facilities</li>
-                        <li>Admission</li>
+                    <div class="lg:flex gap-5 hidden lg:justify-between">
+                        <li class="text-orange-400 ">Home</li>
+                        <li class="text-sky-400">About</li>
+                        <li class="text-cyan-400">Facilities</li>
+                        <li class="text-blue-500">Admission</li>
                     </div>
         
                     
                 </ul>
             </div>
             <div>
-                    <button>
+                    <button class="bg-orange-400 rounded-md w-28 h-8 text-white">
                         Contact
                     </button>
 
@@ -52,34 +53,46 @@
         </nav>
     </header>
 <main>
-    <section class="max-w-[1440px] mx-auto ">
+  <section class="max-w-[1440px] mx-auto p-8  ">
 
-        <div class="flex flex-col-reverse lg:flex-row lg:justify-between">
-            <div>
-                <h2>
-                    Empowering
-students from small age towards vision
-                </h2>
-                <p>
-                    With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.
-                </p>
-                <button>Enroll Now</button>
-            </div>
-            <div>
-                <img src="./assets/hero-kids.png" alt="">
-            </div>
-        </div>
+    <div class="flex flex-col lg:flex-row items-center lg:justify-between px-8 py-12 bg-white">
+      <!-- Text Section -->
+      <div class="max-w-xl space-y-4">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          <span class="text-yellow-400">Empowering</span><br />
+          <span class="text-black">students from small </span><br />
+          <span class="text-black">age</span>
+          <span class="text-cyan-500">towards vision</span>
+        </h1>
+        <p class="text-gray-600  text-base text-cober">
+          With the courage, Confidence, Creativity and Compassion to make <br>
+          their Unique Contribution in a Diverse and Dynamic World.
+        </p>
+        <button class="bg-black text-white px-6 py-2 rounded-md text-lg font-semibold hover:bg-gray-800 transition">
+          Enroll Now
+        </button>
+      </div>
+    
+      <!-- Image Section -->
+      <div class=" mt-10 lg:mt-0">
+        <div class="absolute -left-10 top-10 w-40 h-60 bg-cyan-400 rounded-[30%] -z-10"></div>
+        <div class="absolute -right-10 bottom-10 w-40 h-60 bg-yellow-400 rounded-[30%] -z-10"></div>
+        <img  src="./assets/hero-kids.png"  alt="Superhero Kid" >
+      </div>
+    </div>
+      
 
-        
 
+  </section>
 
-    </section>
+  
 
+    
 
     <section class="mt-10 pt-12">
         <h2 class="text-4xl font-bold text-center">Standard Curriculum</h2>
         <div class="lg:flex gap-10 justify-center mt-10">
-            <div class="text-center border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from-sky-100 to-orange-50 border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/kinder.png" alt="">
                 </div>
@@ -93,7 +106,7 @@ students from small age towards vision
                         </p>
                 </div>
             </div>
-            <div class="text-center border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from-orange-100 to-white border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/elementary.png" alt="">
                 </div>
@@ -107,7 +120,7 @@ students from small age towards vision
                         </p>
                 </div>
             </div>
-            <div class="text-center border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from--100 to-white border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/middle.png" alt="">
                 </div>
@@ -128,7 +141,7 @@ students from small age towards vision
 
    
 
-    <section class="bg-gradient-to-b from-white to-orange-200 mx-auto">
+    <section class="bg-gradient-to-b from-white to-orange-200 mx-auto pb-10">
         <div class="text-center mb-10">
           <h2 class="text-3xl font-bold inline-block  px-4">
             Our Stories
@@ -252,7 +265,7 @@ students from small age towards vision
     </div>
     <div>
         <div>Keep In Touch</div>
-        <div>
+        <div class="flex">
             <img src="./assets/fb.png" alt="">
             <img src="./assets/dribble.png" alt="">
             <img src="./assets/twitter.png" alt="">
