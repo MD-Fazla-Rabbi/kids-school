@@ -10,10 +10,10 @@
 </head>
 <body class="bg-[url('.png')] bg-cover bg-center h-64 w-full">
     <header class="max-w-[1440px] mx-auto p-8 ">
-        <nav class="flex justify-between align-middle pb-8">
+        <nav class="flex justify-between align-middle lg:border-b-2">
              <div class="flex justify-center">
-                <img class="flex justify-start" src="./assets/logo.png" alt="">
-                <h1 class="flex text-3xl justify-center font-bold"> school</h1>
+                <img class=" block justify-start" src="./assets/logo.png" alt="">
+                <h1 class="hidden text-3xl  justify-center font-bold"> school</h1>
              </div>
              <div>
                 <ul class="lg:flex gap-5 hidden lg:justify-between">
@@ -28,7 +28,7 @@
                 </ul>
             </div>
             <div>
-                    <button class="bg-orange-400 rounded-md w-28 h-8 text-white">
+                    <button class="bg-orange-400  hiddenrounded-md w-28 h-8 text-white">
                         Contact
                     </button>
 
@@ -53,9 +53,9 @@
         </nav>
     </header>
 <main>
-  <section class="max-w-[1440px] mx-auto p-8  ">
+ <section class="max-w-[1440px] mx-auto pl-8 pr-8">
 
-    <div class="flex flex-col lg:flex-row items-center lg:justify-between px-8 py-12 bg-white">
+    <div class="flex flex-col-reverse  lg:flex-row items-center lg:justify-between px-8 py-12 bg-white">
       <!-- Text Section -->
       <div class="max-w-xl space-y-4">
         <h1 class="text-4xl md:text-5xl font-bold leading-tight">
@@ -64,7 +64,7 @@
           <span class="text-black">age</span>
           <span class="text-cyan-500">towards vision</span>
         </h1>
-        <p class="text-gray-600  text-base text-cober">
+        <p class="text-gray-600  text-base">
           With the courage, Confidence, Creativity and Compassion to make <br>
           their Unique Contribution in a Diverse and Dynamic World.
         </p>
@@ -75,8 +75,8 @@
     
       <!-- Image Section -->
       <div class=" mt-10 lg:mt-0">
-        <div class="absolute -left-10 top-10 w-40 h-60 bg-cyan-400 rounded-[30%] -z-10"></div>
-        <div class="absolute -right-10 bottom-10 w-40 h-60 bg-yellow-400 rounded-[30%] -z-10"></div>
+        <div class="absolute left-10 top-15 w-40 h-60  rounded-md -z-10"></div>
+        <div class="absolute right-10 bottom-10 w-40 h-60 rounded-md -z-10"></div>
         <img  src="./assets/hero-kids.png"  alt="Superhero Kid" >
       </div>
     </div>
@@ -84,7 +84,6 @@
 
 
   </section>
-
   
 
     
@@ -92,7 +91,7 @@
     <section class="mt-10 pt-12">
         <h2 class="text-4xl font-bold text-center">Standard Curriculum</h2>
         <div class="lg:flex gap-10 justify-center mt-10">
-            <div class="text-center bg-gradient-to-b from-sky-100 to-orange-50 border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from-sky-100 to-orange-50 rounded-3xl border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/kinder.png" alt="">
                 </div>
@@ -106,7 +105,7 @@
                         </p>
                 </div>
             </div>
-            <div class="text-center bg-gradient-to-b from-orange-100 to-white border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from-orange-100 to-white rounded-3xl border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/elementary.png" alt="">
                 </div>
@@ -120,7 +119,7 @@
                         </p>
                 </div>
             </div>
-            <div class="text-center bg-gradient-to-b from--100 to-white border-2 max-w-96 p-5">
+            <div class="text-center bg-gradient-to-b from-purple-200 to-white rounded-3xl border-2 max-w-96 p-5">
                 <div class="flex justify-center mb-5">
                     <img src="./assets/middle.png" alt="">
                 </div>
@@ -141,18 +140,18 @@
 
    
 
-    <section class="bg-gradient-to-b from-white to-orange-200 mx-auto pb-10">
+    <section class="bg-gradient-to-b from-white to-orange-200 max-w-[1440px] mx-auto pb-10">
         <div class="text-center mb-10">
           <h2 class="text-3xl font-bold inline-block  px-4">
             Our Stories
           </h2>
         </div>
       
-        <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-7 max-w-7xl mx-auto">
 
             <!-- Big Card -->
-            <div class="lg:col-span-1 lg:row-span-2 bg-white border border-blue-300 rounded-lg shadow-lg hidden lg:block">
-              <div class="rounded-md mb-4">
+            <div class="lg:col-span-1 lg:row-span-2 rounded-t-2xl bg-white border border-blue-300 rounded-lg shadow-lg hidden lg:block">
+              <div class=" mb-4">
                   <img class="object-cover w-full h-auto" src="./assets/story-1.png" alt="Main Story">
               </div>
               <div class="p-4">
@@ -167,27 +166,38 @@
             </div>
       
           <!-- Card 2 -->
+          
           <div class="bg-white p-4 rounded-lg shadow-md">
-            <img src="./assets/story-2.png" alt="" class="rounded-md mb-3">
+            <div class="rounded-md mb-4">
+            <img class="object-cover w-full h-auto" src="./assets/story-2.png" alt="">
+          </div>
+          <div>
             <span class="inline-block bg-lime-600 text-white text-sm px-4 py-1 rounded-full mb-2">
               November 19, 2019
             </span>
             <h4 class="font-semibold">Find out if a school fits the family’s needs</h4>
           </div>
+          </div>
+        
       
           <!-- Card 3 -->
           <div class="bg-white p-4 rounded-lg shadow-md">
-            <img src="./assets/story-3.png" alt="" class="rounded-md mb-3">
+            <div class="rounded-md mb-4">
+            <img class="object-cover w-full h-auto" src="./assets/story-3.png" alt="">
+          </div>
+          <div>
             <span class="inline-block bg-indigo-600 text-white text-sm px-4 py-1 rounded-full mb-2">
               November 19, 2019
             </span>
             <h4 class="font-semibold">Summer math & literacy centres for kids</h4>
           </div>
+        </div>
       
 
           <!-- Card 4 -->
           <div class="bg-white p-4 rounded-lg shadow-md">
-            <img src="./assets/story-4.png" alt="" class="rounded-md mb-3">
+            <div class="rounded-md mb-4"></div>
+            <img class="object-cover w-full h-auto" src="./assets/story-4.png" alt="" class="rounded-md mb-3">
             <span class="inline-block bg-lime-600 text-white text-sm px-4 py-1 rounded-full mb-2">
               September 10, 2019
             </span>
@@ -196,7 +206,8 @@
       
           <!-- Card 5 -->
           <div class="bg-white p-4 rounded-lg shadow-md">
-            <img src="./assets/story-5.png" alt="" class="rounded-md mb-3">
+            <div class="rounded-md mb-4"></div>
+            <img class="object-cover w-full h-auto" src="./assets/story-5.png" alt="" class="rounded-md mb-3">
             <span class="inline-block bg-lime-600 text-white text-sm px-4 py-1 rounded-full mb-2">
               July 19, 2019
             </span>
@@ -205,7 +216,8 @@
       
           <!-- card 6 -->
           <div class="bg-white p-4 rounded-lg shadow-md lg:hidden">
-            <img src="./assets/story-3.png" alt="" class="rounded-md mb-3">
+            <div class="rounded-md mb-4"></div>
+            <img class="object-cover w-full h-auto" src="./assets/story-3.png" alt="" class="rounded-md mb-3">
             <span class="inline-block bg-indigo-600 text-white text-sm px-4 py-1 rounded-full mb-2">
               November 19, 2019
             </span>
@@ -214,16 +226,20 @@
 
           <!-- card 7 -->
           <div class="bg-white p-4 rounded-lg shadow-md lg:hidden">
-            <img src="./assets/story-3.png" alt="" class="rounded-md mb-3">
-            <span class="inline-block bg-indigo-600 text-white text-sm px-4 py-1 rounded-full mb-2">
-              November 19, 2019
-            </span>
-            <h4 class="font-semibold">Summer math & literacy centres for kids</h4>
+            <div class="rounded-md mb-4">
+              <img class="object-cover w-full h-auto" src="./assets/story-3.png" alt="">
+            </div>
+            <div>
+              <span class="inline-block bg-indigo-600 text-white text-sm px-4 py-1 rounded-full mb-2">
+                November 19, 2019
+              </span>
+              <h4 class="font-semibold">Summer math & literacy centres for kids</h4>
+            </div>
           </div>
         </div>
       
         <!-- View All Button -->
-        <div class="text-center mt-8">
+        <div class="text-center ">
           <button class="bg-black text-white px-6 py-2 rounded-full hover:bg-blue-800 transition-all">
             View All
           </button>
@@ -238,33 +254,33 @@
 
 <!--  footer section start here  -->
  
-        <footer class="border border-y-8 h-96 bg-sky-500">
-<div class="flex lg:justify-between px-16 max-w-[1440px] mx-auto">
-      <div class="">
-        <div>
-            <img src="./assets/logo.png" alt="">
+        <footer class=" h-auto bg-sky-500">
+<div class="lg:flex lg:justify-between lg:py-16 max-w-[1440px] mx-auto p-8 text-white">
+      <div class=" gap-11">
+        <div class="flex pb-10 gap-6">
+            <img src="./assets/footer.png" alt="">
 
-            <h1>Kids
+            <h1 class="text-5xl">Kids <br> 
                 Education</h1>
         </div>
         
         <div>
-            <p>Pizza ipsum dolor meat lovers buffalo. <br>  Deep dolor roll melted bacon Bianca pan <br> bacon pineapple Aussie. Mayo rib sauce <br> Hawaiian meatball.</p>
+            <p class="text-2xl">Pizza ipsum dolor meat lovers buffalo. <br>  Deep dolor roll melted bacon Bianca pan <br> bacon pineapple Aussie. Mayo rib sauce <br> Hawaiian meatball.</p>
         </div>
     </div>
     <div>
-        <div><h1>About School</h1></div>
-        <div>
-            <p>Home</p>
-            <p>About</p>
-            <p>Facilities</p>
-            <p>Admission</p>
+        <div><h1 class="text-3xl pb-8">About School</h1></div>
+        <div class="">
+            <p class="pb-8">Home</p>
+            <p class="pb-8">About</p>
+            <p class="pb-8">Facilities</p>
+            <p class="pb-8">Admission</p>
            
         </div>
        
     </div>
-    <div>
-        <div>Keep In Touch</div>
+    <div class="gap-6">
+        <div class="text-3xl pb-8">Keep In Touch</div>
         <div class="flex">
             <img src="./assets/fb.png" alt="">
             <img src="./assets/dribble.png" alt="">
