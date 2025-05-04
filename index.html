@@ -8,11 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/fcde28876e.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-[url('.assets/bg.png')] bg-cover bg-center p-13 h-64 w-full ">
-    <header class="max-w-[1440px] mx-auto p-8 items-center ">
-        <nav class="flex justify-between align-middle lg:border-b-2">
+<body class="bg-[url('.assets/bg.png')] bg-cover bg-center lg:p-13 h-64 w-full ">
+    <header class="max-w-[1440px] mx-auto p-8 items-center" >
+        <nav class="flex justify-between align-middle lg:border-hidden border-b-2  border-orange-500">
              <div class="flex justify-center">
-                <img class=" block justify-start" src="./assets/logo.png" alt="">
+                <img class=" block justify-start pb-3" src="./assets/logo.png" alt="">
                 <h1 class="hidden text-3xl  justify-center font-bold"> school</h1>
              </div>
              <div>
@@ -34,24 +34,21 @@
 
             </div>
                 
-                <div class="lg:hidden flex justify-end border-b-2">
-                  <div class=" flex absolute justify-start lg:hidden">
-                    <button>
-                      <i class="fa-solid fa-bars"></i>
-                  </button>
-                  </div>
-                <ul class="btn2 dropdown-menu w-52 rounded-3xl bg-base-100 shadow-sm">
-                <li class="menu link1"><a>Home</a></li>
-                <li class="menu link2"><a>About</a></li>
-                <li class="menu link3"><a>Facilities</a></li>
-                <li class="menu link4"><a>Admission</a></li>
-                <li class="menu link4">
-                    <button>
-                    Contact
-                </button></li>
-                </ul>
-                </div>
-                
+                <div class="lg:hidden flex justify-center border-b-2">
+                  
+                     
+                      <div class="dropdown dropdown-end ">
+                        <div tabindex="8  " role="button" class="fa-solid fa-bars flex justify-center
+                        pr-2"></div>
+                        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                          <li class="menu link1"><a>Home</a></li>
+                       <li class="menu link2"><a>About</a></li>
+                        <li class="menu link3"><a>Facilities</a></li>
+                         <li class="menu link4"><a>Admission</a></li>
+                          <li class="menu link4">
+                    </ul>
+                      </div>
+                       
              </div>
         </nav>
     </header>
