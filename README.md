@@ -56,10 +56,11 @@ Add or remove sections easily with DaisyUI components.
 
 ## 📸 Preview
 
-Add a screenshot or live demo link here once deployed
-Example: Live Demo
+<img width="1258" height="590" alt="School Web App" src="https://github.com/user-attachments/assets/4a318e4c-3ffc-4cc2-a5a4-10af038d5dac" />
+[Live Demo](https://kids-school.surge.sh/)
 
 ## 🧾 License
+
 
 This project is open-source and available under the MIT License.
 
